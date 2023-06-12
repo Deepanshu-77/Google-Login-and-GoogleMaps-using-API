@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(162, 180, 189, 0.358),
+    rgba(12, 47, 82, 0.358)
+  );
+}
+
+.Nvbar {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(39, 146, 199, 0.358),
+    rgba(12, 47, 82, 0.358)
+  );
+  align-items: center;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Links {
+  display: block;
+
+  margin: right 4rem;
+  padding: 6rem;
+  text-decoration: none;
+  color: black;
+}
+
+.Links a {
+  margin: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+
+.button {
+  border: 1px solid red;
+  background-color: transparent;
+
+  margin-right: 40px;
+  height: 50px;
+  width: 90px;
+  border-radius: 60px;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(160, 90, 44, 0.358),
+    rgba(201, 182, 182, 0.584)
+  );
+  color: white;
+}
+
+.form {
+  display: none;
+  width: 25vw;
+  height: 28rem;
+  margin-top: 12rem;
+  margin-left: 40rem;
+
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation: zoom-in-zoom-out 1s ease;
+  border-radius: 5px;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+}
+
+.form div:first-child {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-label {
+  font-size: 18px;
+  /* margin: 40px; */
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.mb-3 {
+  padding: 2rem;
+}
+
+.button1 {
+  width: 26rem;
+
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.button2 {
+  margin-left: 3rem;
+}
+
+.button3 {
+  margin-left: 4rem;
+  width: 30%;
+}
+
+.form-control {
+  width: 10px;
+  margin-bottom: 1rem;
+}
+
+.button-admin {
+  /* text-decoration: none;s */
+  color: red;
+  border: none;
+  background-color: transparent;
+  margin-left: 20rem;
+  /* margin-bottom: 4rem; */
+}
+
+.form-check h:first-child {
+  font-weight: bold;
+}
+
+.form-check h:nth-child(2) {
+  font-size: 15px;
+}
+
+.form-check {
+  padding: 10px;
+}
+
+.button4 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.Aloginbutton {
+  height: 7rem;
+  width: 10rem;
+}
+
+.button4 h1 {
+  color: black;
+  margin-top: 2rem;
+  color: rgb(112, 78, 78);
+  height: 80px;
+  width: 30vw;
+  
+}
+
+.data {
+  display: none;
+  position: absolute;
+  left: 28rem;
+  top: 15rem;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+
+  animation: zoom-in-zoom-out2 1s ease;
+  width: 50vw;
+  height: 50vh;
+  /* border: 2px solid; */
+  border-radius: 10px;
+}
+
+@keyframes zoom-in-zoom-out2 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+}
+
+.form2 {
+  padding: 20px;
+  position: absolute;
+  top: 4rem;
+}
+
+.or {
+  position: absolute;
+  left: 27rem;
+  bottom: 10rem;
+}
+
+.longitude {
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 4px;
+  width: 15vw;
+}
+
+.latitude {
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 4px;
+  width: 15vw;
+}
+
+.form-check2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-label2 {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.text-latitude {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.text-longitude {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.container {
+
+  display: inline-block;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: normal;
+
+  margin-bottom: 3rem;
+  padding: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.map {
+  display: none;
+  margin-left: 6rem;
+
+  height: 40vw;
+  width: 90vw;
+  animation: zoom-in-zoom-out3 1s ease;
+}
+
+.mappage {
+  display: none;
+}
+
+.mapbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
+
+.table {
+  display: none;
+  margin-left: 40rem;
+  animation: zoom-in-zoom-out3 1s ease;
+}
+
+@keyframes zoom-in-zoom-out3 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+}
